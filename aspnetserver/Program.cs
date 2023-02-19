@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .WithOrigins("http://localhost:3000", "https://appname.azurestaticapps.net");
+            .WithOrigins("http://localhost:3000", "https://thankful-forest-0a79f1e10.2.azurestaticapps.net");
         });
 });
 
